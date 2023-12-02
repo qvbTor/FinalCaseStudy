@@ -109,10 +109,6 @@
   shell:
     sudo nova-manage cell_v2 map_cell0
 
-#- name: Additional Configuration
- # shell:
-  #  sudo nova-manage cell_v2 create_cell --name=cell1 --verbose
-
 - name: Additional Configuration
   shell:
     sudo nova-manage db sync

@@ -78,3 +78,5 @@
 - name: Populating Image Service Database
   shell:
     sudo glance-manage db_sync
+
+    
